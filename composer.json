@@ -1,0 +1,23 @@
+{
+  "name": "kof/route",
+  "description": "A route inspired by zqhong/route",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "kof",
+      "email": "kof@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kof\\Route\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.0"
+  }
+}
